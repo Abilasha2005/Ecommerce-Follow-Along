@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
 })
 
 
-app.use('/register', userRouter);
+app.use('/auth', userRouter);
 app.listen(PORT,async()=>{
 
     try {
