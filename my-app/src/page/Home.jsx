@@ -1,5 +1,5 @@
 import React from 'react';
-import { Productcard } from '../Components/Product';
+import { Productcard } from '../component/Productcard';
 
 
 const productdetails = [
@@ -34,5 +34,5 @@ export const Home = () => {
             <Productcard key={index} {...product}/></>
         )
       })}</div></div>
-    )
+    )
 }
