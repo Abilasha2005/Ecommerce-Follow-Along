@@ -60,7 +60,7 @@ export const Productform = () => {
             <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
                 <div className='mt-4'>
                     <label className='pb-1 block'>Email <span className='text-red-500'>*</span></label>
-                    <input
+                    <Input
                         type='email'
                         value={email}
                         className='w-full p-2 border rounded'
@@ -72,7 +72,7 @@ export const Productform = () => {
 
                 <div className='mt-4'>
                     <label className='pb-1 block'>Name <span className='text-red-500'>*</span></label>
-                    <input
+                    <Input
                         type='text'
                         value={name}
                         className='w-full p-2 border rounded'
