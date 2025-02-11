@@ -1,6 +1,7 @@
 const express=require('express');
 const connectDB = require('./src/Database/db');
 const userRouter = require('./src/Controller/user');
+const productrouter = require('./src/Controller/Products');
 
 const app=express();
 
@@ -18,6 +19,7 @@ app.get('/',(req,res)=>{
 
 app.use('/auth', userRouter);
 app.listen(PORT,async()=>{
+app.use("/product",productrouter);
 
     try {
         await connectDB(url);
