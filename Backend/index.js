@@ -27,5 +27,5 @@ app.use("/product",productrouter);
     }
     catch(err){
         console.log(err);
-    }
+    }
 });
