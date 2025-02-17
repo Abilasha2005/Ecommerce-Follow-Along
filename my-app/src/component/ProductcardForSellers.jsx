@@ -20,7 +20,6 @@ export const Productcardseller = ({image,name,price,description}) => {
         );
         if (response.status === 200) {
             alert("Product deleted successfully!");
-            // Reload the page or fetch products again
             window.location.reload();
         }
     } catch (err) {
