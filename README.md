@@ -34,3 +34,15 @@ This project was chosen because it aligns with the growing trend of e-commerce a
 - **Entrepreneurial Skills:** Understanding the dynamics of retail and user engagement.
 - **UI/UX Focus:** Building an intuitive, visually appealing, and user-centric interface.
 
+
+ Milestone 5: Sign-Up Page Development and Form Validation
+In this milestone, I focused on building the Sign-Up Page for user registration and implementing form validation.
+
+Key Objectives:
+Created the frontend UI for the Sign-Up Page, where users can register by entering their details (Name, Email, Password).
+Ensured proper form validation to check if the email is in the correct format and if the password meets security requirements (e.g., minimum length).
+This step ensures that users can input their information securely and accurately before submitting it to the server.
+
+What I Learned:
+Built a user-friendly and clean Sign-Up form using HTML and CSS.
+Implemented form validation to ensure that only valid data is submitted.
