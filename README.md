@@ -99,4 +99,8 @@ For this milestone I mostly worked on the frontend of the project. I created a n
 **Milestone 10**
 In this milestone I created a schema for products. I made this using a new js file in the Model folder named Productmodel.js. In this I used mongoose to make the schema. I also created a new file called Products.js when I have all the program for initiating a post request that will store all the data in the database. I also used the middleware Multer to process and use the image files that would be uploaded of the product.I have made the neccessary changes to the middleware folder and Index.js to work as intended.
 
+**In Milestone 11:**
+I'll be working on creating an endpoint in the backend to send all product data from MongoDB to the frontend. On the frontend, I'll write a function to fetch this data and display it dynamically by passing it to a product card component. This milestone will help me understand how to send and receive data between the backend and frontend, as well as how to display that data dynamically using components.
 
+**In Milestone 12:**
+I successfully wrote an endpoint that filters product data based on my email and sends it from MongoDB to the frontend. I also created a function on the frontend to fetch this filtered data and display it dynamically by passing it to the product card component. Through this milestone, I learned how to filter data with specific constraints and send it to the client, as well as how to dynamically display the fetched data using components.
