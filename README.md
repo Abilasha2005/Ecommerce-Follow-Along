@@ -104,3 +104,10 @@ I'll be working on creating an endpoint in the backend to send all product data 
 
 **In Milestone 12:**
 I successfully wrote an endpoint that filters product data based on my email and sends it from MongoDB to the frontend. I also created a function on the frontend to fetch this filtered data and display it dynamically by passing it to the product card component. Through this milestone, I learned how to filter data with specific constraints and send it to the client, as well as how to dynamically display the fetched data using components.
+
+**In Milestone 13:**
+I will learn how to write an endpoint that updates existing data in MongoDB. The endpoint will receive new data and update the corresponding document in the database. On the frontend, I will add an "Edit" button to the product card. When the button is clicked, the relevant data will be sent to a form, where it will auto-fill the existing information, allowing the user to edit it. Once the changes are made, they can be saved. This milestone will help me understand how to perform update operations in detail. 
+
+**In Milestone 14:**
+I successfully wrote an endpoint that deletes a product from MongoDB using its specific ID. On the frontend, I added a "Delete" button to the product card. When clicked, the product's ID is sent to the server endpoint, which removes the product from the database. Through this milestone, I gained a deeper understanding of how to perform delete operations in detail and ensure smooth data removal from the backend.
+
