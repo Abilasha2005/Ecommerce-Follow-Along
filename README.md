@@ -111,3 +111,5 @@ I will learn how to write an endpoint that updates existing data in MongoDB. The
 **In Milestone 14:**
 I successfully wrote an endpoint that deletes a product from MongoDB using its specific ID. On the frontend, I added a "Delete" button to the product card. When clicked, the product's ID is sent to the server endpoint, which removes the product from the database. Through this milestone, I gained a deeper understanding of how to perform delete operations in detail and ensure smooth data removal from the backend.
 
+**Mliestone 22:**
+Create a backend endpoint to receive an address from the frontend's address form. The endpoint will add the address to the user's addresses array in the user profile stored in the database, ensuring proper data persistence.
