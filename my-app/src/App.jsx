@@ -9,6 +9,7 @@ import { Home } from './page/Home';
 import Navbar from './Component/Navbar';
 import Singlecard from './Component/Singlecard';
 import Productform from './Component/Productform';
+import SelectAddress from './Component/SelectAddress';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/productform" element={<Productform />} />
         <Route path="/product/:id" element={<Singlecard />} />
+        <Route path="/SelectAddress" element={<SelectAddress />} />
       </Routes>
     </>
   );
