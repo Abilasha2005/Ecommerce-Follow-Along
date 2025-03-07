@@ -113,3 +113,6 @@ I successfully wrote an endpoint that deletes a product from MongoDB using its s
 
 **Mliestone 22:**
 Create a backend endpoint to receive an address from the frontend's address form. The endpoint will add the address to the user's addresses array in the user profile stored in the database, ensuring proper data persistence.
+
+**Milestone 23:**
+I’ve completed Milestone 23 by adding a "Place Order" button in the cart page that redirects to a "Select Address" page, displaying all user addresses. I also implemented a backend endpoint to fetch and send the user’s addresses.
