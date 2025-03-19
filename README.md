@@ -111,8 +111,45 @@ I will learn how to write an endpoint that updates existing data in MongoDB. The
 **In Milestone 14:**
 I successfully wrote an endpoint that deletes a product from MongoDB using its specific ID. On the frontend, I added a "Delete" button to the product card. When clicked, the product's ID is sent to the server endpoint, which removes the product from the database. Through this milestone, I gained a deeper understanding of how to perform delete operations in detail and ensure smooth data removal from the backend.
 
+**Milestone 15: Navigation Bar Implementation**
+Navbar Creation: Developed a persistent navigation bar that appears on all pages, enhancing user navigation. NavLinks Added: Included links to Home, Product Form, Login, and Sign Up pages for easy access. Styling: Utilized Tailwind CSS to ensure a responsive and visually appealing design.
+
+**Milestone 16: Single Product Detail Page**
+SingleProduct.jsx: Developed a dedicated page to display detailed information about individual products. Routing: Configured routes to navigate to the Single Product page from the product listings. Enhancements: Made minor adjustments to improve user experience across the site.
+
+**Milestone 17 & 18: Cart Functionality Development**
+Cart Schema: Extended the existing schema to include cart details for each user. Post Request: Created an endpoint to handle adding products to the user's cart and storing them in the database. Multer Integration: Ensured image uploads function correctly within the cart system.
+
+**Milestone 19: Cart Page Implementation**
+Cart Components: Developed Cart.jsx and CartComponent.jsx to render the cart interface. Data Fetching: Implemented fetch requests to retrieve and display products in the user's cart. Quantity Management: Added functionality to adjust product quantities using increment and decrement buttons.
+
+**Milestone 20: User Profile Page**
+Profile Endpoint: Established an endpoint to retrieve and send user data to the frontend. Profile.jsx: Created a profile page to display user information, enhancing personalization.
+
+**Milestone 21: Address Form Creation**
+Address.jsx: Developed a form for users to input address details, including country, state, and pincode. State Management: Utilized useState hook to manage form inputs. Form Submission: Implemented Axios to send address data to the backend and navigate to the profile page upon submission.
+
 **Mliestone 22:**
 Create a backend endpoint to receive an address from the frontend's address form. The endpoint will add the address to the user's addresses array in the user profile stored in the database, ensuring proper data persistence.
 
 **Milestone 23:**
 I’ve completed Milestone 23 by adding a "Place Order" button in the cart page that redirects to a "Select Address" page, displaying all user addresses. I also implemented a backend endpoint to fetch and send the user’s addresses.
+
+**Milestone 24: Order Summary and Confirmation**
+Order Summary: Displayed all products included in the order along with selected delivery address and total cart value. Place Order Button: Implemented a final confirmation button to place the order, completing the purchase process.
+
+**Milestone 25: Backend Endpoint for Placing Orders**
+Created an API endpoint to receive user, product, and address details, retrieve user _id via email, and store individual product orders with the same address in the MongoDB orders collection.
+
+**Milestone 26: Fetch User Orders Endpoint**
+Built an API endpoint to fetch all orders of a user by retrieving their _id using their email and sending all associated orders in the response.
+
+**Milestone 27: My Orders Page**
+We created a "My Orders" page for the frontend of the Ecommerce-Follow-Along project. This page displays all the orders placed by the user.
+
+**Milestone 28 - Cancel Order Feature**
+Added a "Cancel Order" button in the My Orders page and created a backend endpoint to update order status to "Cancelled".
+Users can cancel their orders unless they are already marked as "Cancelled".
+
+**Milestone 29: PayPal account**
+I created a PayPal Developer account by logging into the PayPal Developer Dashboard. After logging in, I created a sandbox account and saved the UserID and Client ID. On the order confirmation page, I added two payment options using radio buttons: COD (Cash on Delivery) and Online Payment (PayPal). When the "Online Payment" option is selected, the PayPal button is displayed. In the next step, I will write the code to dynamically load and use the PayPal button for online payments.
