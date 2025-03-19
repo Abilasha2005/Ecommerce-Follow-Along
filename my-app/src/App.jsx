@@ -10,7 +10,7 @@ import Navbar from './Component/Navbar';
 import Singlecard from './Component/Singlecard';
 import Productform from './Component/Productform';
 import SelectAddress from './Component/SelectAddress';
-import OrderConfirmation from './component/OrderConfirmation';
+import OrderConfirmation from './page/OrderConfirmation';
 import MyOrders from './component/MyOrder';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Route path="/productform" element={<Productform />} />
         <Route path="/product/:id" element={<Singlecard />} />
         <Route path="/SelectAddress" element={<SelectAddress />} />
-        <Route path ="/OrderConfirmation" element={<OrderConfirmation />} />
+        <Route path ="/OrderConfirmation" element={<OrderConfirmation/>} />
         <Route path ="/Orderhistory" element={<MyOrders />} />
 
 
