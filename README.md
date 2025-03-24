@@ -153,3 +153,8 @@ Users can cancel their orders unless they are already marked as "Cancelled".
 
 **Milestone 29: PayPal account**
 I created a PayPal Developer account by logging into the PayPal Developer Dashboard. After logging in, I created a sandbox account and saved the UserID and Client ID. On the order confirmation page, I added two payment options using radio buttons: COD (Cash on Delivery) and Online Payment (PayPal). When the "Online Payment" option is selected, the PayPal button is displayed. In the next step, I will write the code to dynamically load and use the PayPal button for online payments.
+
+**Milestone 30:**
+Implemented PayPal API for online payments.Installed react-paypal-js and integrated PayPalScriptProvider.
+Configured PayPal sandbox client ID for testing transactions.Added PayPal payment buttons in the order confirmation page.
+Pushed the updated code to GitHub.
