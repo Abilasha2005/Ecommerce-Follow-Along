@@ -158,3 +158,6 @@ I created a PayPal Developer account by logging into the PayPal Developer Dashbo
 Implemented PayPal API for online payments.Installed react-paypal-js and integrated PayPalScriptProvider.
 Configured PayPal sandbox client ID for testing transactions.Added PayPal payment buttons in the order confirmation page.
 Pushed the updated code to GitHub. 
+
+# Milestone 33 - Saving Password and Setting Username in Cookie
+In this milestone, we implemented JWT authentication by generating a token using the jsonwebtoken package. The token was created using the user's email and ID and then stored securely inside an HTTP-only cookie to prevent client-side access. We also set an expiration time for the cookie using maxAge to ensure automatic removal after a specified duration. The token was included in the response, allowing the browser to store it for authentication purposes. Finally, the completed implementation was pushed to the GitHub repository as per the submission guidelines.
