@@ -55,7 +55,12 @@ userrouter.post("/login",async(req,res)=>{
                 if(err){
                     return res.status(400).json({message:"Invalid jwt"});
                 }
-               res.setHeader("Autherization",Bearer ${token})
+               res.cookie("Autherization",token,{
+                expires: new Date(Date.now()+900000)
+                httpOnly:true,
+                domain: '.localhost.com'
+
+               })
                 console.log(token);
                 res.status(200).json({token:token});    
             })
